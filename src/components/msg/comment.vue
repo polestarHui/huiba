@@ -1,32 +1,32 @@
 <template>
-    <div class="commentContainer">
-        <!-- 头部 -->
-        <div class="head">
-            <img src="../../images/common/return.png" alt="返回" @click="returnB">
-            <div class="content">评论</div>
+  <div class="commentContainer">
+    <!-- 头部 -->
+    <div class="head">
+      <img src="../../images/common/return.png" alt="返回" @click="returnB" />
+      <div class="content">评论</div>
       <div class="btn">发表</div>
-        </div>
     </div>
+    <!-- 内容部分 -->
+    <div class="neirong"></div>
+    <!-- 底部 -->
+  </div>
 </template>
 <script>
 export default {
-    data(){
-        return{
-
-        }
-    },
-    methods: {
-        returnB(){
-            this.$router.go(-1);
-        }
-    },
-}
+  data() {
+    return {};
+  }, 
+  methods: {
+    returnB() {
+      this.$router.go(-1);
+    }
+  }
+};
 </script>
 <style>
-.commentContainer{
-
+.commentContainer {
 }
-    .commentContainer .head {
+.commentContainer .head {
   width: 100%;
   height: 44px;
   background: #fff;
@@ -47,13 +47,13 @@ export default {
   color: rgba(51, 51, 51, 1);
 }
 .commentContainer .head .btn {
-      width: max-content;
-    height: 22px;
-    margin-right: 13px;
-    font-size: 13px;
-    font-family: PingFangSC-Regular,PingFang SC;
-    font-weight: 400;
-    color: rgba(96,126,255,1);
-    margin-top: 11px;
+  width: max-content;
+  height: 22px;
+  margin-right: 13px;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(96, 126, 255, 1);
+  margin-top: 11px;
 }
 </style>
