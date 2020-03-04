@@ -10,6 +10,7 @@ import msg from './components/msg/msg_index.vue'
 import aboutme from './components/msg/aboutme.vue'
 import aboutDetails from './components/msg/aboutDetails.vue'
 import comment from './components/msg/comment.vue'
+import thumb from './components/msg/thumb.vue'
 
 // 引入
 
@@ -22,7 +23,8 @@ const router = new VueRouter({
         {path:'/msg',component:msg,name:'msg'},
         {path:'/aboutme',component:aboutme,name:'aboutme'},
         {path:'/aboutDetails',component:aboutDetails,name:'aboutDetails'},
-        {path:'/comment',component:comment,name:'comment'}
+        {path:'/comment',component:comment,name:'comment'},
+        {path:'/thumb',component:thumb,name:'thumb'}
     ]
 })
 export default router

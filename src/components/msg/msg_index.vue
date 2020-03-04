@@ -19,10 +19,10 @@
             </router-link>
         </div>
         <div class="msgList">
-            <div class="listmsg">
+            <router-link to="/thumb" class="listmsg">
                 <div class="textContent">点赞</div>
                 <img src="../../images/common/go.png" alt="前进">
-            </div>
+            </router-link>
         </div>
     </div>
     <!-- 通知 -->
