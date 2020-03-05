@@ -92,6 +92,10 @@ export default {
       isShowCang:true
     }
   },
+  mounted(){
+      var footer = document.getElementsByClassName("footer");
+    footer[0].style.display = "none";
+  },
   methods: {
     returnB() {
       this.$router.go(-1);
@@ -226,7 +230,7 @@ font-size: 13px
     height: 50px;
     background: #fff;
     position: relative;
-    bottom: -50px;
+    bottom: -100px;
     box-shadow: 0px 1px 32px #eee;
 }
 .aboutDetailsContainer .bottomComent input{

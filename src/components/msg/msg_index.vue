@@ -50,6 +50,9 @@ export default {
       tongzhi1:false,
     };
   },
+  mounted(){
+
+  },
   methods: {
     xiaoxi() {
       this.isShow1 = true;

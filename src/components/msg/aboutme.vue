@@ -36,9 +36,15 @@ export default {
 
         }
     },
+    mounted(){
+var footer = document.getElementsByClassName("footer");
+    footer[0].style.display = "none";
+    },
     methods: {
         returnB(){
             this.$router.go(-1);
+            var footer=document.getElementsByClassName('footer');
+    footer[0].style.display='block';
         }
     },
 };

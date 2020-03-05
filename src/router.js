@@ -11,20 +11,23 @@ import aboutme from './components/msg/aboutme.vue'
 import aboutDetails from './components/msg/aboutDetails.vue'
 import comment from './components/msg/comment.vue'
 import thumb from './components/msg/thumb.vue'
+import login from './components/register/login.vue'
+import register from './components/register/register.vue'
 
 // 引入
 
 const router = new VueRouter({
-    // mode:'history',
     routes:[
-        {path:'/',redirect:'/home'},
+        {path:'/',redirect:'/login'},
+        {path:'/login',component:login,name:'login'},
         {path:'/home',component:home,name:'home'},
         {path:'/search',component:search,name:'search'},
         {path:'/msg',component:msg,name:'msg'},
         {path:'/aboutme',component:aboutme,name:'aboutme'},
         {path:'/aboutDetails',component:aboutDetails,name:'aboutDetails'},
         {path:'/comment',component:comment,name:'comment'},
-        {path:'/thumb',component:thumb,name:'thumb'}
+        {path:'/thumb',component:thumb,name:'thumb'},
+        {path:'/register',component:register,name:'register'}
     ]
 })
 export default router

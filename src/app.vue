@@ -11,8 +11,7 @@
       </transition>
     </div>
     <!-- 底部 -->
-    <!-- <img src="../src/images/common/homeT.png" alt=""> -->
-    <nav class="mui-bar mui-bar-tab">
+    <nav class="mui-bar mui-bar-tab footer">
       <router-link class="mui-tab-item" to="/home">
         <div @click="selected">
           <div class="mui-tab-item mui-active" v-show="flag">
