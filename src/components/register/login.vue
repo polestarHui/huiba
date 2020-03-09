@@ -9,11 +9,11 @@
       <input type="number" class="telNumber" placeholder="请输入密码" />
     </div>
     <div class="anoSelWrap">
-      <div class="suan">短信快捷登录</div>
-      <div class="suan">忘记密码</div>
+      <router-link to="/quick" class="suan">短信快捷登录</router-link>
+      <router-link to="/find" class="suan">忘记密码</router-link>
     </div>
-    <div class="login">登录</div>
-    <div class="suiian">随便看看</div>
+    <router-link tag="div" to="/home" class="login">登录</router-link>
+    <router-link tag="div" to="/home" class="suiian">随便看看</router-link>
   </div>
 </template>
 <script>

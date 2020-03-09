@@ -34,9 +34,16 @@ export default {
 
         }
     },
+    created(){
+      var footer=document.getElementsByClassName('footer');
+      footer[0].style.display='none';
+    },
     methods:{
         returnB(){
+          var footer=document.getElementsByClassName('footer');
+      footer[0].style.display='block';
             this.$router.go(-1);
+            
         }
     }
 };

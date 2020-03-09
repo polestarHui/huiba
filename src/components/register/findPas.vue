@@ -1,12 +1,12 @@
 <template>
-  <div class="registerContainer">
-    <img
+    <div class="findPasContainer">
+        <img
       class="fork"
       src="../../images/common/fork.png"
       alt="取消"
       @click="returnB"
     />
-    <div class="title">注册</div>
+    <div class="title">找回密码</div>
     <div class="telWrap teshu">
       <div class="telName">+86</div>
       <input class="teshuGet1" type="number" placeholder="请输入手机号" />
@@ -23,36 +23,29 @@
       <input class="teshuGet2" type="number" placeholder="请设置密码" />
       <img class="eye" src="../../images/common/eye.png" alt="小眼睛" />
     </div>
-    <router-link tag="div" class="registerBtn" to="/home">注册</router-link>
-  </div>
+    <router-link tag="div" class="registerBtn" to="/login">重置密码</router-link>
+    </div>
 </template>
 <script>
 export default {
-  data() {
-    return {};
-  },
-  created() {
-    var footer = document.getElementsByClassName("footer");
-    footer[0].style.display = "none";
-  },
-  methods: {
-    returnB() {
-      this.$router.go(-1);
+    methods:{
+        returnB(){
+            this.$router.go(-1);
+        }
     }
-  }
-};
+}
 </script>
 <style>
-.registerContainer {
+    .findPasContainer {
 }
-.registerContainer .fork {
+.findPasContainer .fork {
   width: 22px;
   height: 22px;
   position: absolute;
   right: 36px;
   top: 47px;
 }
-.registerContainer .title {
+.findPasContainer .title {
   font-size: 34px;
   font-family: PingFangSC-Medium, PingFang SC;
   font-weight: 500;
@@ -60,7 +53,7 @@ export default {
   margin-left: 9.5%;
   margin-top: 80px;
 }
-.registerContainer .telWrap {
+.findPasContainer .telWrap {
   width: 81%;
   margin: auto;
   display: flex;
@@ -68,10 +61,10 @@ export default {
   border-bottom: 1px solid rgba(153, 153, 153, 0.3);
   height: 50px;
 }
-.registerContainer .teshu {
+.findPasContainer .teshu {
   margin-top: 60px;
 }
-.registerContainer .telWrap .telName {
+.findPasContainer .telWrap .telName {
   font-size: 14px;
   font-family: PingFangSC-Regular, PingFang SC;
   font-weight: 400;
@@ -79,7 +72,7 @@ export default {
   line-height: 60px;
   width: 90px;
 }
-.registerContainer .telWrap input {
+.findPasContainer .telWrap input {
   margin-top: 10.5px;
   margin-bottom: 0;
   margin-left: 15px;
@@ -87,24 +80,24 @@ export default {
   border: none;
   padding: 0;
 }
-.registerContainer .telWrap .teshuGet1 {
+.findPasContainer .telWrap .teshuGet1 {
   margin-left: -13px;
 }
-.registerContainer .telWrap .teshuGet2 {
+.findPasContainer .telWrap .teshuGet2 {
   margin-left: -8px;
 }
-.registerContainer .telWrap input::placeholder {
+.findPasContainer .telWrap input::placeholder {
   font-size: 18px;
   font-family: PingFangSC-Regular, PingFang SC;
   font-weight: 400;
   color: rgba(199, 199, 204, 1);
 }
-.registerContainer .telWrap .eye {
+.findPasContainer .telWrap .eye {
   width: 22px;
   height: 22px;
   margin-top: 18px;
 }
-.registerContainer .telWrap .get {
+.findPasContainer .telWrap .get {
   width: 118px;
   text-align: right;
   /* line-height: 91px; */
@@ -114,7 +107,7 @@ export default {
   border: none;
   margin-top: 11px;
 }
-.registerContainer .registerBtn {
+.findPasContainer .registerBtn {
   width: 80%;
   margin: auto;
   height: 45px;

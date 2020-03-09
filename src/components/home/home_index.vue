@@ -25,13 +25,13 @@
       <div class="tuijian" v-show="isShow1">
         <div class="title">你的兴趣我懂的</div>
         <div class="tuijianWrap">
-          <div class="card">
+          <router-link to="/host" tag="div" class="card">
             <img src="../../images/home/piano.png" alt="舞蹈" />
             <div class="centerTil">钢琴俱乐部</div>
             <div class="guanzhuNum">关注 49.1W &nbsp;帖子 35.9W</div>
             <div class="jianjie">各种舞蹈尽在本部，精彩无限绽放</div>
             <div class="isGuan">关注</div>
-          </div>
+          </router-link>
           <div class="card">
             <img src="../../images/home/dongman.png" alt="舞蹈" />
             <div class="centerTil">动漫俱乐部</div>
@@ -124,6 +124,10 @@ export default {
       isShow2: false,
       isShowCang:true
     };
+  },
+  created(){
+    var footer=document.getElementsByClassName('footer');
+    footer[0].style.display='block';
   },
   methods: {
     tabClick1() {

@@ -50,7 +50,7 @@ export default {
       tongzhi1:false,
     };
   },
-  mounted(){
+  created(){
 
   },
   methods: {

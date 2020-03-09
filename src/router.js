@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 // 引入home
 import home from './components/home/home_index.vue'
 import search from './components/home/search.vue'
+import host from './components/home/host.vue'
 
 // 引入msg
 import msg from './components/msg/msg_index.vue'
@@ -11,11 +12,13 @@ import aboutme from './components/msg/aboutme.vue'
 import aboutDetails from './components/msg/aboutDetails.vue'
 import comment from './components/msg/comment.vue'
 import thumb from './components/msg/thumb.vue'
+
+
+// 引入register
 import login from './components/register/login.vue'
 import register from './components/register/register.vue'
-
-// 引入
-
+import quick from './components/register/quick.vue'
+import find from './components/register/findPas.vue'
 const router = new VueRouter({
     routes:[
         {path:'/',redirect:'/login'},
@@ -27,7 +30,10 @@ const router = new VueRouter({
         {path:'/aboutDetails',component:aboutDetails,name:'aboutDetails'},
         {path:'/comment',component:comment,name:'comment'},
         {path:'/thumb',component:thumb,name:'thumb'},
-        {path:'/register',component:register,name:'register'}
+        {path:'/register',component:register,name:'register'},
+        {path:'/quick',component:quick,name:'quick'},
+        {path:'/find',component:find,name:'find'},
+        {path:'/host',component:host,name:'host'}
     ]
 })
 export default router
