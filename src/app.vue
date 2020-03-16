@@ -36,10 +36,10 @@
         <span class="mui-icon mui-icon-email"></span>
         <span class="mui-tab-label">消息</span>
       </router-link>
-      <a class="mui-tab-item" href="#tabbar-with-contact">
+      <router-link to="/my" class="mui-tab-item" href="#tabbar-with-contact">
         <span class="mui-icon mui-icon-contact"></span>
         <span class="mui-tab-label">我的</span>
-      </a>
+      </router-link>
     </nav>
   </div>
 </template>

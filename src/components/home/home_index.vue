@@ -57,7 +57,7 @@
       </div>
       <!-- 首页部分 -->
       <div class="neirongWrap" v-show="isShow2">
-        <div class="borderKun">
+        <router-link to="/host" tag="div" class="borderKun">
           <div class="baoguo contentList">
             <img
               class="headImg"
@@ -83,7 +83,7 @@
             <img src="../../images/home/zan1.png" alt="点赞" />
             <img src="../../images/home/comment.png" alt="评论" />
           </div>
-        </div> 
+        </router-link> 
         <!-- 第二条 -->
         <div class="borderKun">
           <div class="baoguo contentList">

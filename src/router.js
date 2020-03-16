@@ -19,6 +19,12 @@ import login from './components/register/login.vue'
 import register from './components/register/register.vue'
 import quick from './components/register/quick.vue'
 import find from './components/register/findPas.vue'
+
+// 引入my
+import my from './components/my/my_index.vue'
+import set from './components/my/set.vue'
+import changePas from './components/my/setPas.vue'
+import setPeople from './components/my/setPeople.vue'
 const router = new VueRouter({
     routes:[
         {path:'/',redirect:'/login'},
@@ -33,7 +39,11 @@ const router = new VueRouter({
         {path:'/register',component:register,name:'register'},
         {path:'/quick',component:quick,name:'quick'},
         {path:'/find',component:find,name:'find'},
-        {path:'/host',component:host,name:'host'}
+        {path:'/host',component:host,name:'host'},
+        {path:'/my',component:my,name:'my'},
+        {path:'/set',component:set,name:'set'},
+        {path:'/changePas',component:changePas,name:'changePas'},
+        {path:'/setPeople',component:setPeople,name:'setPeople'},
     ]
 })
 export default router
