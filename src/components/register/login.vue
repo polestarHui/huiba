@@ -21,13 +21,16 @@ export default {
   data() {
     return {};
   },
+  created() {
+    
+  },
   mounted() {
     var footer = document.getElementsByClassName("footer");
     footer[0].style.display = "none";
-  }
+  },
 };
 </script>
-<style>
+<style scoped>
 .loginContainer {
 }
 .loginContainer .appName {

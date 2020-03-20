@@ -8,12 +8,34 @@
     </div>
     <!-- 内容 -->
     <div class="headImg">
-        <div class="title">头像</div>
-        <div class="imgWrap">
-            <img src="../../images/common/moren.png" alt="默认">
-            <img src="../../images/common/next.png" alt="前进">
-        </div>
+      <div class="title">头像</div>
+      <div class="imgWrap">
+        <img class="imgHead" src="../../images/common/moren.png" alt="默认" />
+        <img class="next" src="../../images/common/next.png" alt="前进" />
+      </div>
     </div>
+    <!-- 昵称 -->
+    <router-link to="/setName" tag="div" class="nameWrap teshu">
+      <div class="nameTitle">昵称</div>
+      <div class="contentWrap">
+        <div class="name">1831301</div>
+        <img src="../../images/common/next.png" alt="前进" />
+      </div>
+    </router-link>
+    <router-link to="/setPhone" tag="div" class="nameWrap">
+      <div class="nameTitle">手机号码</div>
+      <div class="contentWrap">
+        <div class="name">18337281301</div>
+        <img src="../../images/common/next.png" alt="前进" />
+      </div>
+    </router-link>
+    <router-link to="/myba" tag="div" class="nameWrap">
+      <div class="nameTitle">创建属于自己的吧</div>
+      <div class="contentWrap">
+        <div class="name"></div>
+        <img src="../../images/common/next.png" alt="前进" />
+      </div>
+    </router-link>
   </div>
 </template>
 <script>
@@ -27,7 +49,6 @@ export default {
 </script>
 <style>
 .setPeopleContainer {
-
 }
 .setPeopleContainer .head {
   width: 100%;
@@ -35,9 +56,6 @@ export default {
   background: #fff;
   display: flex;
   justify-content: space-between;
-
-  /* margin-bottom: 15px; */
-  /* border-bottom: 1px solid rgba(223, 223, 223, 0.5); */
 }
 .setPeopleContainer .head img {
   width: 22px;
@@ -56,7 +74,61 @@ export default {
   height: 22px;
   margin-right: 15px;
 }
-.setPeopleContainer .headImg{
-    
+.setPeopleContainer .headImg {
+  width: 100%;
+  height: 55px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 0 3%;
+}
+.setPeopleContainer .headImg .title {
+  line-height: 55px;
+}
+.setPeopleContainer .headImg .imgWrap {
+  display: flex;
+  width: 21%;
+  justify-content: space-between;
+}
+.setPeopleContainer .headImg .imgWrap .imgHead {
+  width: 40px;
+  height: 40px;
+  margin-top: 7.5px;
+}
+.setPeopleContainer .headImg .imgWrap .next {
+  width: 22px;
+  height: 22px;
+  margin-top: 16.5px;
+}
+/* 昵称 */
+.setPeopleContainer .nameWrap {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  display: flex;
+  padding: 0 3%;
+  justify-content: space-between;
+}
+.setPeopleContainer .teshu {
+  margin-top: 10px;
+}
+.setPeopleContainer .nameWrap .nameTitle {
+  line-height: 50px;
+}
+.setPeopleContainer .nameWrap .contentWrap {
+  display: flex;
+  justify-content: space-between;
+  width: max-content;
+}
+.setPeopleContainer .nameWrap .contentWrap .name {
+  line-height: 50px;
+  font-size: 13px;
+}
+.setPeopleContainer .nameWrap .contentWrap img {
+  width: 22px;
+  height: 22px;
+  margin-top: 14px;
+  margin-left: 10px;
 }
 </style>

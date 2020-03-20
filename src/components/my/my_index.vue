@@ -32,13 +32,13 @@
         </div>
         <img class="next" src="../../images/common/next.png" alt="下一步">
       </div>
-      <div class="numberList">
+      <router-link to="/guanba" tag="div" class="numberList">
         <div class="first">
           <img src="../../images/common/guan2.png" alt="关注">
           <div class="guanContent">关注的吧</div>
         </div>
         <img class="next" src="../../images/common/next.png" alt="下一步">
-      </div>
+      </router-link>
       <div class="numberList">
         <div class="first">
           <img src="../../images/common/guan.png" alt="关注">

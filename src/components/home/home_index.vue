@@ -126,8 +126,8 @@ export default {
     };
   },
   created(){
-    var footer=document.getElementsByClassName('footer');
-    footer[0].style.display='block';
+   var footer = document.getElementsByClassName("footer");
+    footer[0].style.display = "block";
   },
   methods: {
     tabClick1() {
@@ -144,7 +144,7 @@ export default {
   }
 };
 </script>
-<style>
+<style scoped>
 .homeIndexContainer {
   width: 100%;
   height: max-content;

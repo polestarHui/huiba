@@ -25,6 +25,12 @@ import my from './components/my/my_index.vue'
 import set from './components/my/set.vue'
 import changePas from './components/my/setPas.vue'
 import setPeople from './components/my/setPeople.vue'
+import setName from './components/my/setName.vue'
+import setPhone from './components/my/setPhone.vue'
+import myba from './components/my/creatMyba.vue'
+import xieyi from './components/my/xieyi.vue'
+import shiming from './components/my/shiming.vue'
+import guanba from './components/my/guanba.vue'
 const router = new VueRouter({
     routes:[
         {path:'/',redirect:'/login'},
@@ -44,6 +50,12 @@ const router = new VueRouter({
         {path:'/set',component:set,name:'set'},
         {path:'/changePas',component:changePas,name:'changePas'},
         {path:'/setPeople',component:setPeople,name:'setPeople'},
+        {path:'/setName',component:setName,name:'setName'},
+        {path:'/setPhone',component:setPhone,name:'setPhone'},
+        {path:'/myba',component:myba,name:'myba'},
+        {path:'/xieyi',component:xieyi,name:'xieyi'},
+        {path:'/shiming',component:shiming,name:'shiming'},
+        {path:'/guanba',component:guanba,name:'guanba'}
     ]
 })
 export default router
