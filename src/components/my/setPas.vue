@@ -85,7 +85,7 @@ font-weight: bold;
 /* 确认修改 */
 .setPasContainer .certaiBtn{
     width: 91%;
-    background: #147DEA;
+    background: linear-gradient(90deg,rgba(117,165,255,1) 0%,rgba(96,126,255,1) 100%);
     height: 42px;
     margin: auto;
     border-radius: 28px;

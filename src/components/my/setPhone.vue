@@ -103,7 +103,7 @@ export default {
     color: rgba(193, 193, 193, 1);
 }
 .setPhoneContainer .contentWrap .inputWrap .postBtn{
-        background: #147CE8;
+        background: rgba(96,126,255,1);
     color: #fff;
     font-size: 13px;
     width: 38%;
@@ -117,7 +117,7 @@ export default {
     margin: auto;
     text-align: center;
     height: 40px;
-    background: #137DE7;
+    background: linear-gradient(90deg,rgba(117,165,255,1) 0%,rgba(96,126,255,1) 100%);
     color: #fff;
     font-weight: bold;
     line-height: 40px;

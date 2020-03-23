@@ -174,7 +174,11 @@ margin-top: 15px;
     text-align: center;
     height: 40px;
     border-radius: 5px;
-    background: rgba(138, 152, 222,1);
+    background: linear-gradient(
+    90deg,
+    rgba(117, 165, 255, 1) 0%,
+    rgba(96, 126, 255, 1) 100%
+  );
     margin-top: 30px;
     line-height: 40px;
     color: #fff;

@@ -18,13 +18,13 @@
     </router-link>
     <!-- 列表部分 -->
     <div class="listWrap">
-      <div class="numberList">
+      <router-link tag="vue" to="/myGuan" class="numberList">
         <div class="first">
           <img src="../../images/common/funs.png" alt="关注">
           <div class="guanContent">关注</div>
         </div>
         <img class="next" src="../../images/common/next.png" alt="下一步">
-      </div>
+      </router-link>
       <div class="numberList">
         <div class="first">
           <img src="../../images/common/tie.png" alt="关注">

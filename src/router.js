@@ -31,6 +31,7 @@ import myba from './components/my/creatMyba.vue'
 import xieyi from './components/my/xieyi.vue'
 import shiming from './components/my/shiming.vue'
 import guanba from './components/my/guanba.vue'
+import myGuan from './components/my/myGuan.vue'
 const router = new VueRouter({
     routes:[
         {path:'/',redirect:'/login'},
@@ -55,7 +56,8 @@ const router = new VueRouter({
         {path:'/myba',component:myba,name:'myba'},
         {path:'/xieyi',component:xieyi,name:'xieyi'},
         {path:'/shiming',component:shiming,name:'shiming'},
-        {path:'/guanba',component:guanba,name:'guanba'}
+        {path:'/guanba',component:guanba,name:'guanba'},
+        {path:'/myGuan',component:myGuan,name:'myGuan'}
     ]
 })
 export default router
