@@ -25,13 +25,13 @@
         </div>
         <img class="next" src="../../images/common/next.png" alt="下一步">
       </router-link>
-      <div class="numberList">
+      <router-link to="/myfuns" tag="div" class="numberList">
         <div class="first">
           <img src="../../images/common/tie.png" alt="关注">
           <div class="guanContent">粉丝</div>
         </div>
         <img class="next" src="../../images/common/next.png" alt="下一步">
-      </div>
+      </router-link>
       <router-link to="/guanba" tag="div" class="numberList">
         <div class="first">
           <img src="../../images/common/guan2.png" alt="关注">
@@ -39,13 +39,13 @@
         </div>
         <img class="next" src="../../images/common/next.png" alt="下一步">
       </router-link>
-      <div class="numberList">
+      <router-link to="/mytie" tag="div" class="numberList">
         <div class="first">
           <img src="../../images/common/guan.png" alt="关注">
           <div class="guanContent">帖子</div>
         </div>
         <img class="next" src="../../images/common/next.png" alt="下一步">
-      </div>
+      </router-link>
     </div>
   </div>
 </template>

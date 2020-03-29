@@ -53,7 +53,7 @@ export default {
 <style scoped>
 .guanbaContainer {
   background: #fff;
-  padding-bottom: 300px;
+  padding-bottom: 500px;
 }
 .guanbaContainer .head {
   width: 100%;

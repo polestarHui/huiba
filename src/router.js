@@ -32,6 +32,8 @@ import xieyi from './components/my/xieyi.vue'
 import shiming from './components/my/shiming.vue'
 import guanba from './components/my/guanba.vue'
 import myGuan from './components/my/myGuan.vue'
+import myfuns from './components/my/myFuns.vue'
+import mytie from './components/my/mytie.vue'
 const router = new VueRouter({
     routes:[
         {path:'/',redirect:'/login'},
@@ -57,7 +59,9 @@ const router = new VueRouter({
         {path:'/xieyi',component:xieyi,name:'xieyi'},
         {path:'/shiming',component:shiming,name:'shiming'},
         {path:'/guanba',component:guanba,name:'guanba'},
-        {path:'/myGuan',component:myGuan,name:'myGuan'}
+        {path:'/myGuan',component:myGuan,name:'myGuan'},
+        {path:'/myfuns',component:myfuns,name:'myfuns'},
+        {path:'/mytie',component:mytie,name:'mytie'}
     ]
 })
 export default router
