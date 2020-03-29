@@ -4,7 +4,7 @@
     <div class="head">
       <img @click="returnB" src="../../images/common/return.png" alt="返回" />
       <div class="content">我的帖子</div>
-      <div class="btn"></div>
+      <router-link tag="div" to="/sendtie" class="btn">发帖</router-link>
     </div>
     <div class="contentWrap">
     <div class="borderKun">
@@ -101,9 +101,14 @@ export default {
   color: rgba(51, 51, 51, 1);
 }
 .mytieContainer .head .btn {
-  width: 22px;
-  height: 22px;
-  margin-right: 15px;
+     width: max-content;
+    height: 22px;
+    margin-right: 13px;
+    font-size: 13px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(96, 126, 255, 1);
+    margin-top: 11px;
 }
 /* 列表 */
 .mytieContainer .borderKun {

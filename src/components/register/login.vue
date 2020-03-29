@@ -3,13 +3,13 @@
     <div class="appName">慧吧</div>
     <div class="register">还没有账号？<router-link to="/register">点击注册</router-link></div>
     <div class="tel">
-      <input type="number" class="telNumber" placeholder="请输入手机号码" />
+      <input type="number" class="telNumber" placeholder="请输入邮箱" />
     </div>
     <div class="tel">
       <input type="number" class="telNumber" placeholder="请输入密码" />
     </div>
     <div class="anoSelWrap">
-      <router-link to="/quick" class="suan">短信快捷登录</router-link>
+      <router-link to="/quick" class="suan">邮箱快捷登录</router-link>
       <router-link to="/find" class="suan">忘记密码</router-link>
     </div>
     <router-link tag="div" to="/home" class="login">登录</router-link>

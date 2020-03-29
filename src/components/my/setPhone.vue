@@ -3,17 +3,17 @@
     <!-- 头部 -->
     <div class="head">
       <img @click="returnB" src="../../images/common/return.png" alt="返回" />
-      <div class="content">修改手机号</div>
+      <div class="content">修改邮箱</div>
       <div class="btn"></div>
     </div>
     <div class="blueUser">
-        <div class="nowUser">更换手机号码后，下次登录可使用新手机账号登录。</div>
-        <div class="afterUer">当前手机号：18337281301</div>
+        <div class="nowUser">更换邮箱后，下次登录可使用新邮箱账号登录。</div>
+        <div class="afterUer">当前邮箱账号：18337281301</div>
     </div>
     <div class="contentWrap">
-        <div class="title">手机号码</div>
+        <div class="title">邮箱账号</div>
         <div class="inputWrap">
-            <input type="text" placeholder="请输入您的手机号码">
+            <input type="text" placeholder="请输入您的邮箱">
         </div>
     </div>
     <div class="contentWrap">

@@ -8,8 +8,8 @@
     />
     <div class="title">快捷登录</div>
     <div class="telWrap teshu">
-      <div class="telName">+86</div>
-      <input class="teshuGet1" type="number" placeholder="请输入手机号" />
+      <div class="telName">邮箱</div>
+      <input class="teshuGet1" type="number" placeholder="请输入邮箱" />
     </div>
     <div class="telWrap">
       <div class="telName">验证码</div>

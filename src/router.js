@@ -34,6 +34,7 @@ import guanba from './components/my/guanba.vue'
 import myGuan from './components/my/myGuan.vue'
 import myfuns from './components/my/myFuns.vue'
 import mytie from './components/my/mytie.vue'
+import sendtie from './components/my/sendtie.vue'
 const router = new VueRouter({
     routes:[
         {path:'/',redirect:'/login'},
@@ -61,7 +62,8 @@ const router = new VueRouter({
         {path:'/guanba',component:guanba,name:'guanba'},
         {path:'/myGuan',component:myGuan,name:'myGuan'},
         {path:'/myfuns',component:myfuns,name:'myfuns'},
-        {path:'/mytie',component:mytie,name:'mytie'}
+        {path:'/mytie',component:mytie,name:'mytie'},
+        {path:'/sendtie',component:sendtie,name:'sendtie'}
     ]
 })
 export default router

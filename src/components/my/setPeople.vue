@@ -23,7 +23,7 @@
       </div>
     </router-link>
     <router-link to="/setPhone" tag="div" class="nameWrap">
-      <div class="nameTitle">手机号码</div>
+      <div class="nameTitle">邮箱账号</div>
       <div class="contentWrap">
         <div class="name">18337281301</div>
         <img src="../../images/common/next.png" alt="前进" />
