@@ -36,6 +36,7 @@ import myfuns from './components/my/myFuns.vue'
 import mytie from './components/my/mytie.vue'
 import sendtie from './components/my/sendtie.vue'
 const router = new VueRouter({
+    mode:"history",
     routes:[
         {path:'/',redirect:'/login'},
         {path:'/login',component:login,name:'login'},
